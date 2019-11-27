@@ -20,6 +20,7 @@
 		D291D748C69F95AFDA09D9E4 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD02B12B1CCA735D8CE7DDDF /* Pods_Flash_Chat_iOS13.framework */; };
 		D70FE1EF238DA61400AE6312 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70FE1EE238DA61400AE6312 /* GoogleService-Info.plist */; };
 		D70FE1F5238E711100AE6312 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FE1F4238E711100AE6312 /* K.swift */; };
+		D70FE1F7238E8AFA00AE6312 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70FE1F6238E8AFA00AE6312 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BE7677266A2530AEAA37F24F /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
 		D70FE1EE238DA61400AE6312 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D70FE1F4238E711100AE6312 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = SOURCE_ROOT; };
+		D70FE1F6238E8AFA00AE6312 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = SOURCE_ROOT; };
 		DD02B12B1CCA735D8CE7DDDF /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4EEA4FF6B0DFB2680CD710 /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D70FE1F6238E8AFA00AE6312 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				D70FE1F5238E711100AE6312 /* K.swift in Sources */,
+				D70FE1F7238E8AFA00AE6312 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
